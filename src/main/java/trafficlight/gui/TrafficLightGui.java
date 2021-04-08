@@ -85,7 +85,7 @@ public class TrafficLightGui extends JFrame implements ActionListener {
             }
              while (isAutoMode) {
                  //TODO call the controller
-
+                 trafficLightCtrl.nextState();
                 try {
                     if (yellow.isOn) {
                         Thread.sleep(yellowIntervall);
@@ -114,5 +114,20 @@ public class TrafficLightGui extends JFrame implements ActionListener {
 
     public void setLight(TrafficLightColor trafficLightColor){
         //TODO setLight
+        if (trafficLightColor == TrafficLightColor.GREEN) {
+            green.turnOn(true);
+            yellow.turnOn(false);
+            red.turnOn(false);
+        }
+        else if (trafficLightColor == TrafficLightColor.YELLOW) {
+            green.turnOn(false);
+            yellow.turnOn(true);
+            red.turnOn(false);
+        }
+        else if (trafficLightColor == TrafficLightColor.RED) {
+            green.turnOn(false);
+            yellow.turnOn(false);
+            red.turnOn(true);
+        }
     }
 }
