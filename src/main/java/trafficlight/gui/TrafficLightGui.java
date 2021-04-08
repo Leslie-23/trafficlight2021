@@ -89,7 +89,6 @@ public class TrafficLightGui extends JFrame implements ActionListener {
                 try {
                     if (yellow.isOn) {
                         Thread.sleep(yellowIntervall);
-
                     } else {
                         Thread.sleep(intervall);
                     }
