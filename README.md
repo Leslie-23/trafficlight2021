@@ -16,4 +16,5 @@ The following steps must be taken
 * Put colors according to the condition
 
 ! [Green] (/pics/greenLight.png)
-! [Yellow] (/pics/y
+! [Yellow] (/pics/yellowLight.png)
+! [Red] (/pics/redLight.png)
