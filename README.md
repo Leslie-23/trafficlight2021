@@ -1,25 +1,19 @@
+
 # Traffic Light
 
-Das ist das Grundgerüst für die zweite Übung.
+This is the basic framework for the traffic light simulation.
 
-Ziel: Umstetzung des State Patterns und des Singelton Patterns
+Goal: Implementation of the State Pattern and the Singelton Pattern
 
-Folgende Schritte sind zu durchzuführen
+The following steps must be taken
 
-* Bauen Sie den Controller auf einen Singelton um
-* Schreiben Sie das Interface State mit den Methoden
+* Convert the controller to a single tone
+* Write the interface state using the methods
     * nextState  
     * TrafficLightColor getState();
-* Implementieren Sie die Zustände
-* Verbinden Sie UserInterface mit dem Controller
-* Setzen Sie Farben entsprechend dem Zustand
+* Implement the states
+* Connect UserInterface to the controller
+* Put colors according to the condition
 
-![Grün](/pics/greenLight.png)
-![Gelb](/pics/yellowLight.png)
-![Rot](/pics/redLight.png)
-
-Happy coding!
-
-
-
- 
+! [Green] (/pics/greenLight.png)
+! [Yellow] (/pics/y
