@@ -15,6 +15,6 @@ The following steps must be taken
 * Connect UserInterface to the controller
 * Put colors according to the condition
 
-! [Green] (/pics/greenLight.png)
-! [Yellow] (/pics/yellowLight.png)
-! [Red] (/pics/redLight.png)
+![Grün](/pics/greenLight.png)
+![Gelb](/pics/yellowLight.png)
+![Rot](/pics/redLight.png)
